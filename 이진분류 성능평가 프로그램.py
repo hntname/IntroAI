@@ -1,10 +1,10 @@
 #이진분류 성능평가 프로그램
 
 #혼동행렬 값
-TP = int(input("Enter True Positive..."))
-FP = int(input("Enter False Positive..."))
-FN = int(input("Enter False Negative..."))
-TN = int(input("Enter True Negaitive..."))
+TP = float(input("Enter True Positive..."))
+FP = float(input("Enter False Positive..."))
+FN = float(input("Enter False Negative..."))
+TN = float(input("Enter True Negaitive..."))
 
 #전체 데이터 수 
 N = TP+FP+FN+TN
